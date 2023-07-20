@@ -108,7 +108,7 @@ class ServidorHttp
 
     public byte[] LerArquivo(string recurso)
     {
-        string diretorio = "C:\\Users\\Jenifer\\Documents\\ProjetosVini\\Servidor\\www";
+        string diretorio = "C:\\Users\\User\\Documents\\Servidor\\www";
         string caminhoArquivo = diretorio + recurso.Replace("/", "\\");
         if(File.Exists(caminhoArquivo))
         {
